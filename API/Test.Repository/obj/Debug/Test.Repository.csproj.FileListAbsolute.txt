@@ -1,0 +1,7 @@
+D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Repository\bin\Debug\Test.Repository.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Repository\bin\Debug\Test.Repository.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Repository\bin\Debug\Test.Entities.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Repository\bin\Debug\Test.Entities.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Repository\obj\Debug\Test.Repository.csprojResolveAssemblyReference.cache
+D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Repository\obj\Debug\Test.Repository.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Repository\obj\Debug\Test.Repository.pdb

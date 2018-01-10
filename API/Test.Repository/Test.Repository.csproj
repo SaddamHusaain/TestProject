@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRepository\ITestRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\TestRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="IRepository\" />
-    <Folder Include="Repository\" />
+    <ProjectReference Include="..\Test.Entities\Test.Entities.csproj">
+      <Project>{b3316f64-195f-4099-a1cb-fa1ebe6c6a57}</Project>
+      <Name>Test.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
