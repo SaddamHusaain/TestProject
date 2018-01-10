@@ -23,8 +23,8 @@
             <td>{{medication.Name}}</td>
             <td>{{medication.Dosage}}</td>
             <td>{{medication.Frequency}}</td>
-            <td>{{medication.Start}}</td>
-            <td>{{medication.End}}</td>
+            <td>{{medication.StartDate|date : "MM-dd-y"}}</td>
+            <td>{{medication.EndDate|date : "MM-dd-y"}}</td>
             <td>{{medication.Notes}}</td>
           </tr>
         </tbody>
