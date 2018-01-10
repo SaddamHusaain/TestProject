@@ -1,12 +1,12 @@
 ﻿/*
-  Created By   : Saddam 
+  Created By   : Harmesh 
   Created Date : 25-11-2017
   Purpose      : This contant file is used store api urls.
 */
 
 // API Application url.
-export const SITE_URL: string = 'http://localhost:';
+export const SITE_URL: string = 'http://localhost:17453';
 
 export class APIURLS { 
-    public static get Save_ckyb(): string { return SITE_URL + "/kyb/Saveckyb"; };
+  public static get GET_ALL_MEDICATION_API(): string { return SITE_URL + "/MedicationAPI/GetAllMedicationDetails"; };
 }
