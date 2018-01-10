@@ -1,5 +1,0 @@
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Entities\bin\Debug\Test.Entities.dll
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Entities\bin\Debug\Test.Entities.pdb
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Entities\obj\Debug\Test.Entities.csprojResolveAssemblyReference.cache
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Entities\obj\Debug\Test.Entities.dll
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Entities\obj\Debug\Test.Entities.pdb

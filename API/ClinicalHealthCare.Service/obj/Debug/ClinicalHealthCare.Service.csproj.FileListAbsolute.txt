@@ -1,0 +1,16 @@
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Service.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Service.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Repository.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\Telerik.WinControls.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\Telerik.WinControls.UI.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\TelerikCommon.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Entities.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Repository.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\Telerik.WinControls.xml
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\Telerik.WinControls.UI.xml
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Entities.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.csprojResolveAssemblyReference.cache
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\EntityFramework.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Service\bin\Debug\EntityFramework.xml

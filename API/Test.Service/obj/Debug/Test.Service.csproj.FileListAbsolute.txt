@@ -1,9 +1,0 @@
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\bin\Debug\Test.Service.dll
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\bin\Debug\Test.Service.pdb
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\bin\Debug\Test.Entities.dll
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\bin\Debug\Test.Repository.dll
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\bin\Debug\Test.Entities.pdb
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\bin\Debug\Test.Repository.pdb
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\obj\Debug\Test.Service.csprojResolveAssemblyReference.cache
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\obj\Debug\Test.Service.dll
-D:\SaddamHusaain\2018\GitHub\TestProject\API\Test.Service\obj\Debug\Test.Service.pdb

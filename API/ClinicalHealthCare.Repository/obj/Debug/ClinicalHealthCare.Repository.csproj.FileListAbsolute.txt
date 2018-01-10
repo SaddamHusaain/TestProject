@@ -1,0 +1,12 @@
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Repository.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Repository.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Entities.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Entities.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.csprojResolveAssemblyReference.cache
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.pdb
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Repository.dll.config
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.xml
+D:\SaddamHusaain\2018\GitHub\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.SqlServer.xml
