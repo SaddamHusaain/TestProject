@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HttpModule } from '@angular/http'
-import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './shared/modules/app-routing.module';
 import { AppBootstrapModule  } from './shared/modules/app-bootstrap.module';
@@ -16,6 +16,7 @@ import { FooterComponent } from './layout/footer.component';
 
 // Custom components
 import { MedicationsComponent } from './medications/medications.component';
+import { FieldErrorDisplayComponent } from './shared/components/field-error-display/field-error-display.component';
 
 
 @NgModule({
@@ -27,11 +28,13 @@ import { MedicationsComponent } from './medications/medications.component';
 
         // Custom components
         MedicationsComponent,
+
+        FieldErrorDisplayComponent,
     ],
     imports: [
         BrowserModule,
         HttpModule,
-        FormsModule,
+        ReactiveFormsModule,
         AppRoutingModule,
         AppBootstrapModule
     ],
