@@ -31,3 +31,9 @@
 .MedicationPopup button.close {
     font-size: 32px;
 }
+
+.MedicationPopup .alert {
+    width: 100%;
+    display:inline-block;
+}
+ 

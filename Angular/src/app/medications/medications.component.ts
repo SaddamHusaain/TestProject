@@ -21,9 +21,11 @@ import { debounce } from 'rxjs/operator/debounce';
   providers: [ApiService]
 })
 export class MedicationsComponent implements OnInit {
-  Medications:any = [{"Name":"Test", "Dosage":"Test", "Frequency":"2", "StartDate":"10/10/2016", "EndDate":"10/10/2016", "Active":"Y"}];
+  Medications:any = [];
   MedicationForm: FormGroup;
   public modalRef: BsModalRef; // {1}
+
+  public alert: any = { "alertClass": "", "alertMessage": "" };
 
   constructor (
               private _ApiService:ApiService, 
@@ -32,10 +34,10 @@ export class MedicationsComponent implements OnInit {
             ) { }
 
   ngOnInit() {
-    this.loadData();
+      this.loadMedications();
   }
 
-  public loadData() {
+  public loadMedications() {
     this._ApiService.get(APIURLS.GET_ALL_MEDICATION_API).subscribe(
       (data) => {
         this.Medications = data.MedicationList;
@@ -43,7 +45,7 @@ export class MedicationsComponent implements OnInit {
   }
   
   public OpenMedicationPopup(template: TemplateRef<any>) {
-
+      this.alert = { "alertClass": "", "alertMessage": "" };
 
     this.modalRef = this._modalService.show(template, {class: 'MedicationPopup'}); // {3}
 
@@ -74,8 +76,20 @@ export class MedicationsComponent implements OnInit {
   onSubmit() {
     if (this.MedicationForm.valid) {
       this._ApiService.post(APIURLS.CREATE_MEDICATION_API, this.MedicationForm.value).subscribe(
-        (data) => {
-          this.Medications = data.MedicationList;
+          (data) => {
+            if (data.Success == true) {
+                this.reset();
+                this.alert.alertMessage = "Medication saved sucessfully.";
+                this.alert.alertClass = "alert alert-success";
+                this.loadMedications();
+                setTimeout(() => {
+                    this.modalRef.hide();
+                }, 2000);
+                
+            } else {
+                this.alert.alertMessage = data.Message;
+                this.alert.alertClass = "alert alert-danger"
+            }
       });
     } else {
       this.validateAllFormFields(this.MedicationForm);

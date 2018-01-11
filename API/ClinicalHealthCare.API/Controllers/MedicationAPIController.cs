@@ -1,4 +1,6 @@
-﻿using ClinicalHealthCare.Service.IService;
+﻿using ClinicalHealthCare.Entities.Common;
+using ClinicalHealthCare.Entities.Request;
+using ClinicalHealthCare.Service.IService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,24 @@ namespace ClinicalHealthCare.API.Controllers
             httpResponseMessage = new HttpResponseMessage();
             var getAllMedicationResponse = await _IMedicationService.GetAllMedicationDetails();
             httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, getAllMedicationResponse);
+            return httpResponseMessage;
+        }
+
+        [HttpPost]
+        [Route("SaveMedication")]
+        [ActionName("SaveMedication")]
+        public async Task<HttpResponseMessage> SaveMedication(MedicationRequest medicationRequest)
+        {
+            httpResponseMessage = new HttpResponseMessage();
+            if (medicationRequest != null && ModelState.IsValid)
+            {
+                var saveMedication = await _IMedicationService.SaveMedication(medicationRequest);
+                httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, saveMedication);
+            }
+            else
+            {
+                httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, new { Message = CustomErrorMessages.INVALID_INPUTS, Success = false });
+            }
             return httpResponseMessage;
         }
     }
