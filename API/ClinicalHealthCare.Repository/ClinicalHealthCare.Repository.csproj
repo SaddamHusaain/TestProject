@@ -51,24 +51,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClinicalHealthCareDB.Context.cs">
+    <Compile Include="ClinicalHealthCareEntities.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ClinicalHealthCareDB.Context.tt</DependentUpon>
+      <DependentUpon>ClinicalHealthCareEntities.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="ClinicalHealthCareDB.cs">
+    <Compile Include="ClinicalHealthCareEntities.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ClinicalHealthCareDB.tt</DependentUpon>
+      <DependentUpon>ClinicalHealthCareEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="ClinicalHealthCareDB.Designer.cs">
+    <Compile Include="ClinicalHealthCareEntities.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ClinicalHealthCareDB.edmx</DependentUpon>
+      <DependentUpon>ClinicalHealthCareEntities.edmx</DependentUpon>
     </Compile>
     <Compile Include="IRepository\IMedicationRepository.cs" />
     <Compile Include="Medication.cs">
-      <DependentUpon>ClinicalHealthCareDB.tt</DependentUpon>
+      <DependentUpon>ClinicalHealthCareEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\MedicationRepository.cs" />
@@ -83,12 +83,12 @@
     <None Include="App.Config">
       <SubType>Designer</SubType>
     </None>
-    <EntityDeploy Include="ClinicalHealthCareDB.edmx">
+    <EntityDeploy Include="ClinicalHealthCareEntities.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ClinicalHealthCareDB.Designer.cs</LastGenOutput>
+      <LastGenOutput>ClinicalHealthCareEntities.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="ClinicalHealthCareDB.edmx.diagram">
-      <DependentUpon>ClinicalHealthCareDB.edmx</DependentUpon>
+    <None Include="ClinicalHealthCareEntities.edmx.diagram">
+      <DependentUpon>ClinicalHealthCareEntities.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -96,15 +96,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClinicalHealthCareDB.Context.tt">
+    <Content Include="ClinicalHealthCareEntities.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ClinicalHealthCareDB.edmx</DependentUpon>
-      <LastGenOutput>ClinicalHealthCareDB.Context.cs</LastGenOutput>
+      <DependentUpon>ClinicalHealthCareEntities.edmx</DependentUpon>
+      <LastGenOutput>ClinicalHealthCareEntities.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="ClinicalHealthCareDB.tt">
+    <Content Include="ClinicalHealthCareEntities.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ClinicalHealthCareDB.edmx</DependentUpon>
-      <LastGenOutput>ClinicalHealthCareDB.cs</LastGenOutput>
+      <DependentUpon>ClinicalHealthCareEntities.edmx</DependentUpon>
+      <LastGenOutput>ClinicalHealthCareEntities.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ClinicalHealthCareModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Medications">
+    <Key>
+      <PropertyRef Name="MedicationId" />
+    </Key>
+    <Property Name="MedicationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Dosage" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="Unit" Type="varchar" MaxLength="50" />
+    <Property Name="Form" Type="varchar" MaxLength="50" />
+    <Property Name="Method" Type="varchar" MaxLength="50" />
+    <Property Name="Indication" Type="varchar" MaxLength="50" />
+    <Property Name="Frequency" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="Prescriber" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="RXNumber" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Notes" Type="varchar" MaxLength="1000" />
+    <Property Name="Duration" Type="varchar" MaxLength="255" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ClinicalHealthCareModelStoreContainer">
+    <EntitySet Name="Medications" EntityType="Self.Medications" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -10,4 +10,9 @@ namespace ClinicalHealthCare.Entities.Response
     {
         public List<MedicationResponse> MedicationList { get; set; }
     }
+
+    public class SearchMedicationListResponse : BaseResponse
+    {
+        public List<SearchMedicationResponse> SearchMedicationList { get; set; }
+    }
 }

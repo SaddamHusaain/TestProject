@@ -32,8 +32,27 @@ namespace ClinicalHealthCare.API.Controllers
         public async Task<HttpResponseMessage> GetAllMedicationDetails()
         {
             httpResponseMessage = new HttpResponseMessage();
+
             var getAllMedicationResponse = await _IMedicationService.GetAllMedicationDetails();
             httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, getAllMedicationResponse);
+            return httpResponseMessage;
+        }
+
+        [HttpGet]
+        [Route("GetMedicationDetailsById")]
+        [ActionName("GetMedicationDetailsById")]
+        public async Task<HttpResponseMessage> GetMedicationDetailsById(int id)
+        {
+            httpResponseMessage = new HttpResponseMessage();
+            if (id > 0)
+            {
+                var getMedicationResponse = await _IMedicationService.GetMedicationDetailsById(id);
+                httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, getMedicationResponse);
+            }
+            else
+            {
+                httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, new { Message = CustomErrorMessages.INVALID_INPUTS, Success = false });
+            }
             return httpResponseMessage;
         }
 
@@ -47,6 +66,24 @@ namespace ClinicalHealthCare.API.Controllers
             {
                 var saveMedication = await _IMedicationService.SaveMedication(medicationRequest);
                 httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, saveMedication);
+            }
+            else
+            {
+                httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, new { Message = CustomErrorMessages.INVALID_INPUTS, Success = false });
+            }
+            return httpResponseMessage;
+        }
+
+        [HttpGet]
+        [Route("SearchMedication")]
+        [ActionName("SearchMedication")]
+        public async Task<HttpResponseMessage> SearchMedication(string keyword)
+        {
+            if (keyword != null)
+            {
+                httpResponseMessage = new HttpResponseMessage();
+                var SearchMedicationResponse = await _IMedicationService.SearchMedication(keyword);
+                httpResponseMessage = Request.CreateResponse(HttpStatusCode.OK, SearchMedicationResponse);
             }
             else
             {
