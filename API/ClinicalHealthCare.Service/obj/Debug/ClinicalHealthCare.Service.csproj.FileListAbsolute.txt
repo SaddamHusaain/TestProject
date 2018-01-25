@@ -11,3 +11,16 @@ F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Service\bin\Debug\E
 F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.csprojResolveAssemblyReference.cache
 F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.dll
 F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.pdb
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Service.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Service.pdb
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Entities.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Repository.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\EntityFramework.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Entities.pdb
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\ClinicalHealthCare.Repository.pdb
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\Telerik.WinControls.xml
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\Telerik.WinControls.UI.xml
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\bin\Debug\EntityFramework.xml
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.csprojResolveAssemblyReference.cache
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Service\obj\Debug\ClinicalHealthCare.Service.pdb

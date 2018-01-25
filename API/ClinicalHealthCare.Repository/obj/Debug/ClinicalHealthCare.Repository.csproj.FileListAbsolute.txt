@@ -10,3 +10,15 @@ F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Repository\bin\Debu
 F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.csprojResolveAssemblyReference.cache
 F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.dll
 F:\Neeraj\GIT\TestProject\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.pdb
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Repository.dll.config
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Repository.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Repository.pdb
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Entities.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\ClinicalHealthCare.Entities.pdb
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.xml
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.csprojResolveAssemblyReference.cache
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.dll
+F:\GIT\Saddam\TestProject\API\ClinicalHealthCare.Repository\obj\Debug\ClinicalHealthCare.Repository.pdb
